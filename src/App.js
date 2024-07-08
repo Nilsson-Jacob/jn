@@ -5,10 +5,12 @@ import NavbarM from "./NavbarM";
 
 function App() {
   return (
-    <div className="App">
+    <>
       <NavbarM></NavbarM>
-      <p>JN page</p>
-    </div>
+      <div className="App">
+        <p>JN page</p>
+      </div>
+    </>
   );
 }
 
